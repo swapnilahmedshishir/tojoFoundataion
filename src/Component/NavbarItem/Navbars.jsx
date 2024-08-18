@@ -5,7 +5,7 @@ const NavbarsNav = () => {
     <div className="w-full absolute z-10 top-5 flex bg-white justify-around py-2 items-center ">
       {/* logo image  */}
       <div>
-        <img src="src/assets/Logo.png" alt="tojo funadation logo" />
+        <img src="/assets/Logo.png" alt="tojo funadation logo" />
       </div>
       <div>
         <ul className="flex font-montserrat items-center font-bold">

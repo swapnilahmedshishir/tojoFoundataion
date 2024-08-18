@@ -10,7 +10,7 @@
       rgb(1, 28, 82) -19.5%,
       rgba(0, 206, 233, 0.295) 100%
     ),
-    url("src/assets/Firefly_children.png");
+    url("/assets/Firefly_children.png");
     background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
