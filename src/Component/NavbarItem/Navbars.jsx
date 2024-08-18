@@ -2,7 +2,7 @@ import React from "react";
 
 const NavbarsNav = () => {
   return (
-    <div className="w-full absolute z-10 top-5 flex bg-white justify-around py-2 items-center ">
+    <div className="w-full fixed z-10 top-5 flex bg-white justify-around py-2 items-center ">
       {/* logo image  */}
       <div>
         <img src="/assets/Logo.png" alt="tojo funadation logo" />
