@@ -4,7 +4,7 @@ import MainHome from "./Component/Home/MainHome";
 
 const App = () => {
   return (
-    <div className="relative">
+    <div className="">
       <NavbarsNav></NavbarsNav>
       <MainHome></MainHome>
     </div>

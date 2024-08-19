@@ -17,15 +17,50 @@ const Hero = () => {
         </div>
         {/* </div> */}
       </div>
-      <section className="bg-gray-200 lg:relative min-h-[52rem] lg:min-h-[50rem]">
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 lg:gap-0 justify-items-center lg:absolute -top-10 w-full mx-auto px-5 lg:px-52 pt-5 lg:pt-0">
-          <HeroCard />
-          <HeroCard />
-          <HeroCard />
+      <section className="bg-gray-200 lg:relative min-h-[52rem] lg:min-h-[59rem]">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-5  justify-items-center lg:absolute -top-10 w-full mx-auto px-5 lg:px-16 xl:px-28  lg:gap-3 pt-5 lg:pt-0">
+          <HeroCard
+            services={{
+              img: "education 1.png",
+              title: "Education",
+              description:
+                "Education is recognized as a fundamental right in Bangladesh. The country has made significant progress in delivering education to its people. Acknowledging the crucial role of education,",
+            }}
+          />
+          <HeroCard
+            services={{
+              img: "boy-and-girl 1.png",
+              title: "Youth",
+              description:
+                "Education is recognized as a fundamental right in Bangladesh. The country has made significant progress in delivering education to its people. Acknowledging the crucial role of educationAcknowledging the crucial role of education,",
+            }}
+          />
+          <HeroCard
+            services={{
+              img: "gender 1.png",
+              title: "Gender",
+              description:
+                "Education is recognized as a fundamental right in Bangladesh. The country has made significant progress in delivering education to its people. Acknowledging the crucial role of education,",
+            }}
+          />
         </div>
-        <div className="grid grid-cols-1 lg:grid-cols-2 justify-items-center lg:absolute top-96 w-full mx-auto px-5 lg:px-96 gap-5 lg:gap-0 pt-5 lg:pt-0 ">
-          <HeroCard />
-          <HeroCard />
+        <div className="grid grid-cols-1 lg:grid-cols-2 justify-items-center lg:absolute top-[30rem] w-full mx-auto px-5 lg:px-16 xl:px-72  lg:gap-3  gap-5  pt-5 lg:pt-0 ">
+          <HeroCard
+            services={{
+              img: "entrepreneurship 1.png",
+              title: "Entrepreneurship",
+              description:
+                "Education is recognized as a fundamental right in Bangladesh. The country has made significant progress in delivering education to its people. Acknowledging the crucial role of education,",
+            }}
+          />
+          <HeroCard
+            services={{
+              img: "conflict-management 1.png",
+              title: "Conflicts & Disasters",
+              description:
+                "Education is recognized as a fundamental right in Bangladesh. The country has made significant progress in delivering education to its people. Acknowledging the crucial role of education,",
+            }}
+          />
         </div>
       </section>
     </>
