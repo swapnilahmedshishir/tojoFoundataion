@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link, NavLink } from "react-router-dom";
 import { IoReorderThreeOutline } from "react-icons/io5";
 import { FaXmark } from "react-icons/fa6";
 
@@ -15,7 +16,9 @@ const NavbarsNav = () => {
       <nav className="w-full relative z-10  flex bg-white justify-between lg:justify-around py-2 items-center shadow-lg px-10 lg:px-0">
         {/* Logo */}
         <div>
-          <img src="/assets/Logo.png" alt="Tojo Foundation logo" />
+          <NavLink to="/">
+            <img src="/assets/Logo.png" alt="Tojo Foundation logo" />
+          </NavLink>
         </div>
 
         {/* Mobile Menu Button */}
@@ -40,24 +43,26 @@ const NavbarsNav = () => {
         >
           <ul className="font-montserrat text-left font-bold space-y-4">
             <li className="px-5" onClick={toggleMenu}>
-              Home
+              <NavLink to="/home">Home</NavLink>
             </li>
             <li className="px-5" onClick={toggleMenu}>
-              Focus
+              <NavLink to="/focus">Focus</NavLink>
             </li>
             <li className="px-5" onClick={toggleMenu}>
-              Project
+              <NavLink to="/Project">Project</NavLink>
             </li>
             <li className="px-5" onClick={toggleMenu}>
-              About us
+              <NavLink to="/aboutus">About us</NavLink>
             </li>
             <li className="px-5" onClick={toggleMenu}>
-              Tojo Stars
+              <NavLink to="/tojoStars">Tojo Stars</NavLink>
             </li>
             <li className="" onClick={toggleMenu}>
-              <button className="py-3 px-14 bg-gradient-to-r from-g1 to-SkyBlue text-white rounded-3xl">
-                Donate
-              </button>
+              <NavLink to="/donate">
+                <button className="py-3 px-14 bg-gradient-to-r from-g1 to-SkyBlue text-white rounded-3xl">
+                  Donate
+                </button>
+              </NavLink>
             </li>
           </ul>
         </div>
@@ -65,15 +70,37 @@ const NavbarsNav = () => {
         {/* Desktop Menu */}
         <div className="hidden lg:block">
           <ul className="lg:flex font-montserrat items-center font-bold">
-            <li className="px-5">Home</li>
-            <li className="px-5">Focus</li>
-            <li className="px-5">Project</li>
-            <li className="px-5">About us</li>
-            <li className="px-5">Tojo Stars</li>
             <li className="px-5">
-              <button className="py-3 px-14 bg-gradient-to-r from-g1 to-SkyBlue text-white rounded-3xl">
-                Donate
-              </button>
+              <NavLink to="/home" className="hover:text-blue1">
+                Home
+              </NavLink>
+            </li>
+            <li className="px-5">
+              <NavLink to="/focus" className="hover:text-blue1">
+                Focus
+              </NavLink>
+            </li>
+            <li className="px-5">
+              <NavLink to="/Project" className="hover:text-blue1">
+                Project
+              </NavLink>
+            </li>
+            <li className="px-5">
+              <NavLink to="/aboutus" className="hover:text-blue1">
+                About us
+              </NavLink>
+            </li>
+            <li className="px-5">
+              <NavLink to="/tojoStars" className="hover:text-blue1">
+                Tojo Stars
+              </NavLink>
+            </li>
+            <li className="px-5">
+              <NavLink to="/donate">
+                <button className="py-3 px-14 bg-gradient-to-r from-g1 to-SkyBlue text-white rounded-3xl">
+                  Donate
+                </button>
+              </NavLink>
             </li>
           </ul>
         </div>

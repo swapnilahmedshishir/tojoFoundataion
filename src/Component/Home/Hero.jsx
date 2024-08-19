@@ -44,7 +44,7 @@ const Hero = () => {
             }}
           />
         </div>
-        <div className="grid grid-cols-1 lg:grid-cols-2 justify-items-center lg:absolute top-[30rem] w-full mx-auto px-5 lg:px-16 xl:px-72  lg:gap-3  gap-5  pt-5 lg:pt-0 ">
+        <div className="grid grid-cols-1 lg:grid-cols-2 justify-items-center lg:absolute top-[30rem] w-full mx-auto px-5 lg:px-16 xl:px-72  lg:gap-3  gap-5  pt-5 lg:pt-0">
           <HeroCard
             services={{
               img: "entrepreneurship 1.png",

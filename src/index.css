@@ -15,3 +15,42 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+
+/* ========================================================================= */
+/* Erro Page  */
+.erro_page_div {
+  min-height: 90vh;
+  padding: 3rem 0rem;
+  background-color: #00527F;
+}
+
+.erro_text_div h5 {
+  font-size: 1.5rem;
+  margin-top: -4rem;
+  padding-bottom: 2rem;
+  font-weight: 400;
+  line-height: 2.5rem;
+}
+.custombtn { 
+  background: linear-gradient(
+      100deg,
+      rgb(1, 28, 82) -19.5%,
+      rgba(0, 206, 233, 0.295) 100%
+    );
+  padding: 0.5rem 1.4rem;
+  border-radius: 0.4rem;
+  color: var(--text-color);
+  font-size: 1.3rem;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.custombtn:hover {  
+  background: linear-gradient(
+      100deg,
+      rgba(1, 28, 82, 0.849) -19.5%,
+      rgba(0, 206, 233, 0.678) 100%
+    );
+  color: var(--bg-color);
+  transition: background 0.4s ease, color 0.4s ease;
+}
+/* ========================================================================= */
