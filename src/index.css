@@ -54,3 +54,10 @@
   transition: background 0.4s ease, color 0.4s ease;
 }
 /* ========================================================================= */
+
+/* project section  */
+.project {
+    border-radius: 0px 0px 70px 70px;
+  box-shadow: 0px 10px 15.9px -1px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(180deg, rgba(1, 28, 82, 0.1) 1.308%,rgb(0, 205, 233) 109.199%);
+}

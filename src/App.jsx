@@ -6,7 +6,7 @@ import Erro from "./Component/ErroPage/Erro";
 
 const App = () => {
   return (
-    <div className="">
+    <div className="font-montserrat">
       <Router>
         <NavbarsNav></NavbarsNav>
         <Routes>
