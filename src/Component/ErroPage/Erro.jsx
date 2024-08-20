@@ -11,7 +11,7 @@ const Erro = () => {
               The Page Your are <br /> Looking for doesn&#39;t exist
             </h5>
             <Link to="/">
-              <button className="custombtn"> Back to Home</button>
+              <button className="btn btn-wide custombtn"> Back to Home</button>
             </Link>
           </div>
         </div>

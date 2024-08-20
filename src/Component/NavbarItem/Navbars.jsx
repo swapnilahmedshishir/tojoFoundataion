@@ -59,7 +59,7 @@ const NavbarsNav = () => {
             </li>
             <li className="" onClick={toggleMenu}>
               <NavLink to="/donate">
-                <button className="py-3 px-14 bg-gradient-to-r from-g1 to-SkyBlue text-white rounded-3xl">
+                <button className="btn btn-wide py-3 px-14 bg-gradient-to-r from-g1 to-SkyBlue text-white rounded-3xl">
                   Donate
                 </button>
               </NavLink>
@@ -97,7 +97,7 @@ const NavbarsNav = () => {
             </li>
             <li className="px-5">
               <NavLink to="/donate">
-                <button className="py-3 px-14 bg-gradient-to-r from-g1 to-SkyBlue text-white rounded-3xl">
+                <button className="btn btn-wide py-3 px-14 bg-gradient-to-r from-g1 to-SkyBlue text-white rounded-3xl">
                   Donate
                 </button>
               </NavLink>

@@ -11,7 +11,7 @@ const Hero = () => {
           <p className="font-bold mb-10 text-xl w-3/4 mx-auto">
             Help children rise above and beyond with your support.
           </p>
-          <button className="py-3 px-14 ml-3 bg-gradient-to-r from-[#031741] via-[#03d2fc] to-[#022d33] text-white rounded-3xl font-extrabold opacity-100">
+          <button className="btn btn-wide py-3 px-14 ml-3 bg-gradient-to-r from-[#031741] via-[#03d2fc] to-[#022d33] text-white rounded-3xl font-extrabold opacity-100">
             Donation Now
           </button>
         </div>
