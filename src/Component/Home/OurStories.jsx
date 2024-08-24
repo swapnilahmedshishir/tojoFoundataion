@@ -7,8 +7,8 @@ const OurStories = () => {
         OUR STORIES
       </h1>
       <div className="flex justify-center items-center pt-20">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-x-20 gap-y-24">
-          <div className="card card-compact bg-base-100 w-[30rem] shadow-xl rounded-[40px]">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-x-20 lg:gap-y-24 mx-5 lg:mx-0">
+          <div className="card card-compact bg-base-100 w-fit lg:w-[30rem] shadow-xl rounded-[40px]">
             <figure className="m-1">
               <img src="/assets/Rectangle 34.png" alt="education child" />
             </figure>
@@ -24,7 +24,7 @@ const OurStories = () => {
               </div>
             </div>
           </div>
-          <div className="card card-compact bg-base-100 w-[30rem] shadow-xl rounded-[40px]">
+          <div className="card card-compact bg-base-100  w-fit lg:w-[30rem] shadow-xl rounded-[40px]">
             <figure className="m-1">
               <img src="/assets/Rectangle 35.png" alt="education child" />
             </figure>
@@ -40,7 +40,7 @@ const OurStories = () => {
               </div>
             </div>
           </div>
-          <div className="card card-compact bg-base-100 w-[30rem] shadow-xl rounded-[40px]">
+          <div className="card card-compact bg-base-100  w-fit lg:w-[30rem] shadow-xl rounded-[40px]">
             <figure className="m-1">
               <img src="/assets/Rectangle 34-1.png" alt="education child" />
             </figure>
@@ -56,7 +56,7 @@ const OurStories = () => {
               </div>
             </div>
           </div>
-          <div className="card card-compact bg-base-100 w-[30rem] shadow-xl rounded-[40px]">
+          <div className="card card-compact bg-base-100  w-fit lg:w-[30rem] shadow-xl rounded-[40px]">
             <figure className="m-1">
               <img src="/assets/Rectangle 35-1.png" alt="education child" />
             </figure>
