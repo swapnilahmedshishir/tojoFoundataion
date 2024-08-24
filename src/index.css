@@ -68,3 +68,9 @@
   box-shadow: 0px 10px 15.9px -1px rgba(0, 0, 0, 0.1);
   background: linear-gradient(0deg, rgba(1, 28, 82, 0.1) 1.308%,rgb(0, 205, 233) 109.199%);
 }
+
+/* HelpHand section  */
+.HelpHand {    
+  box-shadow: 0px 10px 15.9px -1px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(180deg, rgba(1, 17, 48, 0.055) 1.308%,rgba(0, 206, 233, 0.247) 109.199%);
+}

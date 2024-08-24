@@ -75,7 +75,7 @@ const OurStories = () => {
         </div>
       </div>
       <div className="text-center mt-20">
-        <button className="btn btn-wide text-DarkBlue font-bold text-2xl shadow-[0_8px_26.8px_0_rgba(0,82,127,0.17)] bg-[rgb(244,250,255)] rounded-[50px]">
+        <button className="btn btn-wide text-DarkBlue font-bold text-xl shadow-[0_8px_26.8px_0_rgba(0,82,127,0.17)] bg-[rgb(244,250,255)] rounded-[50px]">
           View More
         </button>
       </div>
