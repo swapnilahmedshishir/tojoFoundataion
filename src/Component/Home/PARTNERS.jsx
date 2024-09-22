@@ -1,5 +1,3 @@
-import React from "react";
-
 const PARTNERS = () => {
   return (
     <section className="bg-[#FFFFFF] PARTNERS min-h-screen font-montserrat py-[100px]">
@@ -8,16 +6,39 @@ const PARTNERS = () => {
           OUR PARTNERS
         </h1>
       </div>
-      <div className="max-w-6xl mx-auto text-center">
-        <div className="grid grid-cols-2">
-          <img src="/assets/LOGO-04 1.png" alt="" />
-          <img src="/assets/Logo.png" alt="" />
+      <div className="max-w-6xl mx-auto text-center mt-[6.19rem]">
+        {/* animation image style start */}
+        <div className="home_patner_img_animation">
+          <div className="patner_img_item item1">
+            <img
+              src="/assets/tojoGlobalIcon.png"
+              alt="patner tojo global Image"
+              className="w-[21.75rem] h-[7.13rem] object-contain"
+            />
+          </div>
+          <div className="patner_img_item item2">
+            <img
+              src="/assets/tojoNewsIcon.png"
+              alt="patner of tojo news "
+              className="w-[21.75rem] h-[7.13rem] object-contain"
+            />
+          </div>
+          <div className="patner_img_item item3">
+            <img
+              src="/assets/tojoGlobalIcon.png"
+              alt="patner tojo global Image"
+              className="w-[21.75rem] h-[7.13rem] object-contain"
+            />
+          </div>
+          <div className="patner_img_item item4">
+            <img
+              src="/assets/tojoNewsIcon.png"
+              alt="patner of tojo news "
+              className="w-[21.75rem] h-[7.13rem] object-contain"
+            />
+          </div>
         </div>
-      </div>
-      <div className="max-w-6xl mx-auto text-center">
-        <div className="">
-          <div></div>
-        </div>
+        {/* animation image style end */}
       </div>
     </section>
   );
