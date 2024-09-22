@@ -4,6 +4,14 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#root {
+  margin-bottom: 0px;
+}
 .bg_hero {
   background: linear-gradient(
       100deg,
@@ -15,13 +23,13 @@
   background-position: center;
   background-repeat: no-repeat;
 }
-
-/* ========================================================================= */
-/* Erro Page  */
+/* =====================================================================
+                  Erro Page start
+ ====================================================================*/
 .erro_page_div {
   min-height: 90vh;
   padding: 3rem 0rem;
-  background-color: #00527f;
+  background: linear-gradient(#011c52, #00527f);
 }
 
 .erro_text_div h5 {
@@ -53,9 +61,9 @@
   color: var(--bg-color);
   transition: background 0.4s ease, color 0.4s ease;
 }
-/* ========================================================================= */
-
-/* project section  */
+/* =====================================================================
+                  project section start
+ ====================================================================*/
 .project {
   border-radius: 0px 0px 70px 70px;
   box-shadow: 0px 10px 15.9px -1px rgba(0, 0, 0, 0.1);
@@ -65,8 +73,9 @@
     rgb(0, 205, 233) 109.199%
   );
 }
-
-/* ourStories section  */
+/* =====================================================================
+                  ourStories section start
+ ====================================================================*/
 .ourStories {
   border-radius: 70px 70px 0px 0px;
   box-shadow: 0px 10px 15.9px -1px rgba(0, 0, 0, 0.1);
@@ -76,8 +85,10 @@
     rgb(0, 205, 233) 109.199%
   );
 }
+/* =====================================================================
+                  HelpHand section start
+ ====================================================================*/
 
-/* HelpHand section  */
 .HelpHand {
   box-shadow: 0px 10px 15.9px -1px rgba(0, 0, 0, 0.1);
   background: linear-gradient(
@@ -88,13 +99,15 @@
   z-index: -10;
 }
 
-/* PARTNERS section  */
+/* =====================================================================
+                   PARTNERS section start
+ ====================================================================*/
+
 .PARTNERS {
   margin-top: -3rem;
   z-index: 10;
   border-radius: 75px 75px 0px 0px;
   box-shadow: 0px 10px 15.9px -1px rgba(0, 0, 0, 0.1);
-  /* background: linear-gradient(0deg, rgba(1, 28, 82, 0.1) 1.308%,rgb(0, 205, 233) 109.199%); */
 }
 
 /* animation patner image styl */
@@ -146,4 +159,24 @@
 
 .item4 {
   animation-delay: calc(30s / 4 * (4 - 4) * -1);
+}
+
+/* =====================================================================
+                   footer part star
+ ====================================================================*/
+.FooterSection {
+  margin-top: -3rem;
+  z-index: 10;
+  border-radius: 4.6875rem 4.6875rem 0rem 0rem;
+
+  box-shadow: 0px 10px 15.9px -1px rgba(0, 0, 0, 0.1);
+}
+.footer-border-radius {
+  border-radius: 4.6875rem 4.6875rem 0.625rem 0.625rem;
+}
+.footer-divider {
+  background-color: #fff;
+  width: 80%;
+  height: 1px;
+  margin: 0 auto;
 }

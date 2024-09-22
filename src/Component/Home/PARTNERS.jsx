@@ -1,6 +1,6 @@
 const PARTNERS = () => {
   return (
-    <section className="bg-[#FFFFFF] PARTNERS min-h-screen font-montserrat py-[100px]">
+    <section className="bg-[#FFFFFF] PARTNERS min-h-[11.24rem]  font-montserrat pt-[5.81rem] pb-[14.79rem]">
       <div className="max-w-6xl mx-auto text-center">
         <h1 className="text-center font-bold text-3xl text-DarkBlue">
           OUR PARTNERS
